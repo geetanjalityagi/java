@@ -39,6 +39,5 @@ public class OnlineShoppingSimple {
             System.out.println("Error: Please enter numbers only.");
         }
 
-        sc.close();
     }
 }
