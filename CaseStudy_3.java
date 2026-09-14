@@ -1,4 +1,4 @@
-class EmployeeSalary{
+class CaseStudy_3{
     int emp_id;
     String name;
     float salary;
@@ -6,7 +6,7 @@ class EmployeeSalary{
     float da;
 
 
-    EmployeeSalary(int emp_id, String name, float salary){
+    CaseStudy_3(int emp_id, String name, float salary){
         this.emp_id = emp_id;
         this.name = name;
         this.salary = salary;
@@ -27,7 +27,7 @@ class EmployeeSalary{
     }
 
     public static void main(String[] args){
-        EmployeeSalary obj = new EmployeeSalary(23, "abc", 6447.0f);
+        CaseStudy_3 obj = new CaseStudy_3(23, "abc", 6447.0f);
         obj.cal_hra(6447.0f);
         obj.cal_da(6447.0f);
         obj.display();

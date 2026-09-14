@@ -1,10 +1,10 @@
-class Student {
+class CaseStudy_9{
     int student_id;
     String name;
     String[] courses;
     int count;
 
-    Student(int student_id, String name) {
+    CaseStudy_9(int student_id, String name) {
         this.student_id = student_id;
         this.name = name;
         courses = new String[5];
@@ -34,7 +34,7 @@ class Student {
 
     public static void main(String[] args) {
 
-        Student obj = new Student(101, "Abc");
+        CaseStudy_9 obj = new CaseStudy_9(101, "Abc");
 
         obj.registerCourse("Java");
         obj.registerCourse("Python");

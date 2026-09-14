@@ -1,10 +1,10 @@
-class Hospital{
+class CaseStudy_6{
     int id;
     String name;
     int age;
     float temp;
 
-    Hospital(int id, String name, int age, float temp){
+    CaseStudy_6(int id, String name, int age, float temp){
         this.id = id;
         this.name = name;
         this.age = age;
@@ -26,7 +26,7 @@ class Hospital{
     }
 
     public static void main(String[] args){
-        Hospital obj = new Hospital(23, "abc", 43, 105.4f);
+        CaseStudy_6 obj = new CaseStudy_6(23, "abc", 43, 105.4f);
         obj.display();
     }
 }

@@ -13,10 +13,10 @@ class Employee{
     }
 }
 
-class Manager extends Employee{
+class CaseStudy_8 extends Employee{
     float bonus;
 
-    Manager(String name, float salary, float bonus) {
+    CaseStudy_8 (String name, float salary, float bonus) {
         super(name, salary);
         this.bonus = bonus;
     }
@@ -35,7 +35,7 @@ class Manager extends Employee{
 
         System.out.println();
 
-        Manager m = new Manager("xyz", 50000.0f, 10000.0f);
+        CaseStudy_8 m = new CaseStudy_8("xyz", 50000.0f, 10000.0f);
 
         System.out.println("Manager Details");
         m.displayManager();

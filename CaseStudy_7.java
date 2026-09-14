@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-class ATM {
+class CaseStudy_7{
     int pin;
     float balance;
 
-    ATM(int pin, float balance) {
+    CaseStudy_7(int pin, float balance) {
         this.pin = pin;
         this.balance = balance;
     }
@@ -32,7 +32,7 @@ class ATM {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        ATM obj = new ATM(1234, 5000.0f);
+        CaseStudy_7 obj = new CaseStudy_7(1234, 5000.0f);
 
         int attempts = 0;
         boolean correctPin = false;

@@ -1,5 +1,5 @@
 import java.util.*;
-public class booking{
+public class TryCatch_1{
     public static void main(String arg[]){
         Scanner sc=new Scanner(System.in);
         int av = 50;

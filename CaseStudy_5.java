@@ -1,10 +1,10 @@
-class Book {
+class CaseStudy_5{
     int book_id;
     String book_title;
     String author;
     boolean available;
 
-    Book(int book_id, String book_title, String author) {
+    CaseStudy_5(int book_id, String book_title, String author) {
         this.book_id = book_id;
         this.book_title = book_title;
         this.author = author;
@@ -43,7 +43,7 @@ class Book {
 
     public static void main(String[] args) {
 
-        Book obj = new Book(101, "Java Programming", "James Gosling");
+        CaseStudy_5 obj = new CaseStudy_5(101, "Java Programming", "James Gosling");
 
         obj.displayBook();
 

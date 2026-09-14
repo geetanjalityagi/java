@@ -1,5 +1,5 @@
 import java.util.*;
-public class withdrawl {
+public class TryCatch_2{
     public static void main(String arg[]){
         Scanner sc=new Scanner(System.in);
         try{

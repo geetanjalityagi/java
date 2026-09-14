@@ -23,7 +23,7 @@ class NetBanking implements Payment {
     }
 }
 
-class PaymentSystem {
+class CaseStudy_10{
 
     public static void main(String[] args) {
 

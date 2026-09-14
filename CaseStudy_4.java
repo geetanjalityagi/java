@@ -1,10 +1,10 @@
-class Product {
+class CaseStudy_4{
     int product_id;
     String product_name;
     float price;
     int quantity;
 
-    Product(int product_id, String product_name, float price, int quantity) {
+    CaseStudy_4(int product_id, String product_name, float price, int quantity) {
         this.product_id = product_id;
         this.product_name = product_name;
         this.price = price;
@@ -26,9 +26,9 @@ class Product {
 
     public static void main(String[] args) {
 
-        Product p1 = new Product(101, "Laptop", 45000.0f, 1);
-        Product p2 = new Product(102, "Mouse", 500.0f, 2);
-        Product p3 = new Product(103, "Keyboard", 1000.0f, 1);
+        CaseStudy_4 p1 = new CaseStudy_4(101, "Laptop", 45000.0f, 1);
+        CaseStudy_4 p2 = new CaseStudy_4(102, "Mouse", 500.0f, 2);
+        CaseStudy_4 p3 = new CaseStudy_4(103, "Keyboard", 1000.0f, 1);
 
         p1.display();
         p2.display();
